@@ -8,8 +8,7 @@
              Title="StepperTestPage">
     <VerticalStackLayout>
         <Stepper x:Name="Stepper1"
-                 Increment="{Binding Increment}"
-                 />
+                 Increment="{Binding Increment}" />
         <Entry x:Name="Entry1"
                Text="{Binding Source={x:Reference Stepper1}, Path=Value, Converter={local:DoubleToStringConverter}}"/>
         <HorizontalStackLayout>

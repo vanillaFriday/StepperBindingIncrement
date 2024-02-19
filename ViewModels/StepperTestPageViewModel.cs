@@ -36,7 +36,7 @@
 
         public StepperTestPageViewModel()
         {
-            Increment = 1; Stroke1 = 5;
+            Increment = 11; Stroke1 = 5;
         }
 
         public Command ChangeDecimalExponentCommand
